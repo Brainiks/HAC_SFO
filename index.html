@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIMKA</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/team.css">
+    <link rel="stylesheet" href="./css/fire.css">
+</head>
+
+<body>
+    <main id="home">
+        <!-- МЕНЮ -->
+        <header class="navbar relative container mx--auto text--white py--2">
+            <nav class="flex flex--row content--between">
+                <div>
+                    <a href="#" class="logo pointer text--white text-weight--bold">PREDICT MAP</a>
+                </div>
+                <div id="main-menu" class="flex flex--row">
+                    <ul class="flex flex--row">
+                        <li class="mx--2 list--none">
+                            <a href="#home" class="text--white">Карта</a>
+                        </li>
+                        <li class="mx--2 list--none">
+                            <a href="#about" class="text--white">Статьи</a>
+                        </li>
+                        <li class="mx--2 list--none">
+                            <a href="#container__map" class="text--white">Наша команда</a>
+                        </li>
+                        <li class="mx--2 list--none">
+                            <a href="#blog" class="text--white">Видео</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="btn-burger" class="btn-burger">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </div>
+            </nav>
+            <div id="mobile-menu" class="mobile-menu mt--3 absolute w--100 rounded none mobile-hide">
+                <ul>
+                    <li class="mobile-items">
+                        <a href="#home">Карта</a>
+                    </li>
+                    <li class="mobile-items">
+                        <a href="#about">Стаьи</a>
+                    </li>
+                    <li class="mobile-items">
+                        <a href="./qgis.html">Наша команда</a>
+                    </li>
+                    <li class="mobile-items">
+                        <a href="#blog">Видео</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero flex flex--row container mx--auto">
+            <div class="hero-img absolute w--100 h--100"></div>
+            <div class="hero-content my--auto text--white">
+                <h1 class="hero-title text--lg">Мониторинг и предсказание природных пожаров</h1>
+                <p class="hero-text mt--1 text--md">
+                    Это решение для предварительного обнаружения пожаров на основе метеоданных и рельефа, позволяющее значительно сократить количетсво возгораний
+                </p>
+                <div class="flex flex--row gap--md mt--3">
+                    <button
+                        class="btn bg--white uppercase border border--white text--md text-weight--semibold flex flex--row align--center gap--sm"  onclick="location.href='https://t.me/ITimkaCommunity'">
+                        О нас
+                        <i class='bx bx-right-top-arrow-circle bx-sm'></i>
+                    </button>
+                    <button
+                        class="btn bg--transparent uppercase border border--white text--md text--white text-weight--semibold" onclick="location.href='https://t.me/+vo5QRMF2wggyMjNi'">
+                        Узнать больше
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+
+        <!-- <section id="map" class="container__map">
+            <iframe src="https://ermolaeva.nextgis.com/resource/142/display/tiny?base=basemap_0&lon=129.2586&lat=61.5718&angle=0&zoom=12&styles=135%2C137%2C139&linkMainMap=true&events=false&panel=none&controls=&panels=" style="overflow:hidden;height:800px;width:1400px" height="850" width="1700"></iframe>
+        </section> -->
+        <section id="map" class="container__map">
+          
+          <h1 style="margin-right: 30 px;">Предсказание бинарной маски</h1>
+          <iframe src="http://localhost:7860/" width="50%" height="400"></iframe>
+          <!--width="90%" height="700" frameborder="0"></iframe>-->
+        </section>
+      
+        
+        
+
+        <!-- ACTIVITIES -->
+
+        <div class="image-text-block">
+            <img src="assets/smoke.png" class="left-image">
+            <div class="text-content">
+              <h2>Заголовок текста</h2>
+              <p>
+
+                В последние годы лесные пожары стали более частыми и разрушительными, чем когда-либо. По мере изменения климата, увеличение средних температур, длительные периоды засух и экстремальные погодные условия создают идеальные условия для распространения огня. Многочисленные регионы сталкиваются с катастрофическими последствиями — тысячи гектаров леса уничтожаются, экосистемы страдают, а люди теряют дома и жизни.
+                
+                Пожары стали глобальной проблемой, затрагивающей как густонаселенные районы, так и удаленные лесные массивы. Причины возникновения лесных пожаров разнообразны — от человеческой неосторожности до природных факторов. Важно понимать, что предотвращение пожаров и минимизация их последствий требуют комплексного подхода: от раннего предупреждения и мониторинга до эффективных мер реагирования и восстановления пострадавших территорий.
+                
+                Технологии, такие как спутниковые снимки и искусственный интеллект, играют ключевую роль в выявлении зон высокого риска и прогнозировании пожаров. Благодаря современным решениям мы можем минимизировать ущерб и защитить важнейшие экосистемы.
+                
+                </p>
+            </div>
+          </div>
+          
+
+        <div class="team">
+            <div class="team-member">
+              <img src=assets\IMG_20240514_145050.jpg class="photo" alt="Участник 1">
+              <h3>Лев</h3>
+              <p> кассир Ozon</p>
+            </div>
+            <div class="team-member">
+              <img src=assets\IMG_20240517_222011.jpg class="photo" alt="Участник 2">
+              <h3>Полина</h3>
+              <p>Старший кассир Ozon</p>
+            </div>
+            <div class="team-member">
+              <img src=assets\IMG_20240608_100929.jpg class="photo" alt="Участник 3">
+              <h3>Илюшка</h3>
+              <p>младший кассир Ozon</p>
+            </div>
+          </div>
+          
+          <div class="logos">
+            <img src="assets\timka.png" alt="Логотип 1">
+            <img src="assets\favicon.png" alt="Логотип 2">
+          </div>
+          
+
+        
+        <!-- <section id="blog" class="contasiner flex flex--row align--center gap--md mx--auto py--5"> -->
+
+            
+            <section class="section__video-gallery-container">
+                <div class="video-gallery-container">
+                    <h2 class="title text--white text--center">Полезные видео</h2>
+                    <div class="video-gallery">
+                      <div class="featured-video">
+                        <div class="responsive-iframe">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/3oZKM1_0ZZc?si=R2oKXygvmeLi_BxD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+              
+                        <h3 class="video-title">
+                        Python and Google Earth Engine in QGIS - QGIS GEE 02 | burdGIS
+                        </h3>
+                      </div>
+              
+                      <div class="all-videos">
+                        <div class="video">
+                          <img
+                            class="thumbnail"
+                            data-id="stqXwwEkF0g"
+                            data-title="Design Responsive Course Cards Using HTML, CSS & JavaScript"
+                            src="assets/thumbnail-1.jpeg"
+                            alt=""
+                          />
+              
+                          <div class="play-icon">
+                            <img src="assets/play-icon.png" alt="" />
+                          </div>
+                        </div>
+              
+                        <div class="video">
+                          <img
+                            class="thumbnail"
+                            data-id="ohFuDyhED8s"
+                            data-title="Design A Responsive Portfolio Website Using HTML, CSS & JS"
+                            src="assets/thumbnail-2.jpeg"
+                            alt=""
+                          />
+              
+                          <div class="play-icon">
+                            <img src="assets/play-icon.png" alt="" />
+                          </div>
+                        </div>
+              
+                        <div class="video">
+                          <img
+                            class="thumbnail"
+                            data-id="prX_NC3Nbh8"
+                            data-title="Design A Responsive Homepage Using HTML, CSS For Blogger"
+                            src="assets/thumbnail-3.jpeg"
+                            alt=""
+                          />
+              
+                          <div class="play-icon">
+                            <img src="assets/play-icon.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+    </main>
+
+    <footer class="footer bg--primary py--4 relative">
+        <div class="container flex flex--col gap--lg mx--auto">
+            <div class="footer-info flex flex--row content--between align--center gap--md">
+                <div>
+                    <ul class="flex flex--row content--center align--center gap--md list--none text--md">
+                        <li class="pointer">
+                            <a href="#" class="text--white">Telegram</a>
+                        </li>
+                        <li class="pointer">
+                            <a href="#" class="text--white">VK</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text--center text--white text--md">
+                    Created by <a href="#" class="text--white underline">ITIMKA</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+               
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>

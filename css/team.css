@@ -1,0 +1,30 @@
+.team {
+    display: flex;
+    justify-content: space-around; /* Равномерно распределяет фото участников */
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+  }
+  
+  .team-member {
+    text-align: center; /* Выравнивает текст и фото по центру */
+  }
+  
+  .team-member img {
+    width: 300px; /* Задай нужный размер изображения */
+    border-radius: 5%; /* Округляет фото */
+    margin-bottom: 10px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center; /* Центрирует логотипы */
+    gap: 20px; /* Расстояние между логотипами */
+    margin-bottom: 30px;
+  }
+  
+  .logos img {
+    width: 100px; /* Размер логотипа */
+  }
+  
+  

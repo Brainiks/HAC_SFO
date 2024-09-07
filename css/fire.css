@@ -1,0 +1,40 @@
+.image-text-block {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 20px; /* Расстояние между изображением и текстом */
+    margin-bottom: 30px; /* Отступ снизу */
+    background-image: url('assets\phone.jpg'); /* Указываем путь к изображению */
+    background-size: cover; /* Изображение будет полностью покрывать блок */
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Избегаем повторения изображения */
+    padding: 50px; /* Отступы внутри блока */
+    color: white; /* Цвет текста на фоне */
+    text-align: center; /* Текст по центру */
+  }
+  
+  
+  .left-image {
+    width: 450px; /* Ширина изображения */
+    border-radius: 10px; /* Округление углов */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Небольшая тень для изображения */
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  .text-content {
+    max-width: 600px; /* Ограничение ширины текста */
+    margin-left: 250px;
+    text-align: left;
+  }
+  
+  .text-content h2 {
+    font-size: 24px; /* Размер заголовка */
+    margin-bottom: 10px; /* Отступ после заголовка */
+  }
+  
+  .text-content p {
+    font-size: 16px; /* Размер основного текста */
+    line-height: 1.6; /* Межстрочный интервал для читабельности */
+    color: #333; /* Цвет текста */
+  }
+  
