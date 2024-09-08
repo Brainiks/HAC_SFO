@@ -529,3 +529,7 @@ button {
 .btn--no-floating:hover {
     transform: none;
 }
+.photo{
+    height: 400px;
+    object-fit: cover;
+}
